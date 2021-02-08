@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="bg-indigo-100 h-screen">
       <header className="flex flex-col items-center h-full justify-center">
-        <img src={logo} className="w-64" alt="logo" />
+        <img src={logo} className="w-22" alt="logo" />
         <p className="text-lg text-indigo-500 font-semibold">
           Edit <code>src/App.js</code> and save to reload.
         </p>
