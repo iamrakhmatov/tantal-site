@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import Anchor from "./Anchor/Anchor.js";
 import logo from "../../assets/tantal-logo.png";
 import logoText from "../../assets/tantal-text.png";
 
@@ -94,7 +95,7 @@ const Navigation = (props) => {
                 <img src={logoText} className="w-28" alt="Logo" />
               </div>
               {/*<Breadcrumb />*/}
-              {/*<Anchor />*/}
+              <Anchor />
             </div>
           </div>
         </div>

@@ -18,6 +18,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.2",
+    "react-scroll": "^1.8.1",
     "tailwindcss": "^2.0.3"
   },
   "scripts": {
@@ -27,7 +28,7 @@
     "eject": "react-scripts eject",
     "tailwind:build": "NODE_ENV=production postcss src/tailwind.css -o src/App.css",
     "tailwind:dev": "postcss src/tailwind.css -o src/App.css",
-    "prestart": "npm run tailwind:build",
+    "prestart": "npm run tailwind:dev",
     "prebuild": "npm run tailwind:build"
   },
   "eslintConfig": {
