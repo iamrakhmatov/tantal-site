@@ -1,6 +1,7 @@
 // import { useState } from "react";
 import "./App.css";
 import Home from "./components/Home/Home";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   // const [menuBtn, setMenuBtn] = useState(false);
@@ -12,6 +13,7 @@ function App() {
   return (
     <div className="">
       <Home />
+      <Footer />
     </div>
   );
 }
