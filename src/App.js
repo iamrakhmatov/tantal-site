@@ -12,7 +12,7 @@ function App() {
   };
 
   return (
-    <div className="">
+    <div>
       <Navigation menuBtn={menuBtn} toggler={toggler} />
       <Home />
       <Footer />
