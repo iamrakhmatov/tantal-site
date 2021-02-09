@@ -17,7 +17,7 @@ const gallery = () => {
         </p>
         <p className="mx-auto w-12 h-1 bg-red-800 my-4"></p>
       </div>
-      <div className="grid grid-cols-2 gap-4 px-16 py-5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 px-4 sm:px-16 py-5">
         <div>
           <img
             className="object-cover object-cover h-full w-full"

@@ -19,17 +19,17 @@ const partners = () => {
       </div>
 
       {/*List of partners*/}
-      <div className="grid grid-cols-1 sm:grid-cols-4 sm:my-16 divide-y sm:divide-y-0 sm:divide-x divide-gray-300 gap-8 px-10 divide-opacity-80 mx-16 sm:mx-0">
-        <div className="flex justify-center items-center">
+      <div className="grid grid-cols-2 sm:grid-cols-4 mt-12 sm:my-16 sm:divide-y-0 sm:divide-x divide-gray-300 sm:gap-8 px-10 divide-opacity-80">
+        <div className="flex justify-center items-center p-4 sm:p-0 ">
           <img src={logo1} alt="logo one" />
         </div>
-        <div className="flex justify-center items-center sm:pl-7">
+        <div className="flex justify-center items-center p-4 sm:p-0 sm:pl-7 border-l border-gray-100 sm:border-0 ">
           <img src={logo2} alt="logo two" />
         </div>
-        <div className="flex justify-center items-center sm:pl-7">
+        <div className="flex justify-center items-center p-4 sm:p-0 sm:pl-7 border-t border-gray-100 sm:border-0 ">
           <img src={logo3} alt="logo three" />
         </div>
-        <div className="flex justify-center items-center pt-7 sm:pt-0">
+        <div className="flex justify-center items-center p-4 sm:p-0 border-l border-t border-gray-100 sm:border-0 sm:pt-0">
           <img src={logo4} alt="logo four" />
         </div>
       </div>
