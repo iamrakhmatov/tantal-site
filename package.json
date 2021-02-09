@@ -28,7 +28,7 @@
     "eject": "react-scripts eject",
     "tailwind:build": "NODE_ENV=production postcss src/tailwind.css -o src/App.css",
     "tailwind:dev": "postcss src/tailwind.css -o src/App.css",
-    "prestart": "npm run tailwind:dev",
+    "prestart": "npm run tailwind:build",
     "prebuild": "npm run tailwind:build"
   },
   "eslintConfig": {
