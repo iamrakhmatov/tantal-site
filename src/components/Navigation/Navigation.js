@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import "./Navigation.css";
 import { Button } from "antd";
 import logo from "../../assets/tantal-logo.png";
 import logoText from "../../assets/tantal-text.png";
