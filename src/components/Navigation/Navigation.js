@@ -96,7 +96,7 @@ const Navigation = (props) => {
               >
                 <img src={logoText} className="w-28" alt="Logo" />
               </div>
-              <Breadcrumb />
+              {/*<Breadcrumb />*/}
               <Anchor />
             </div>
           </div>

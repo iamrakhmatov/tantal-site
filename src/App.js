@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import Navigation from "./components/Navigation/Navigation";
 
 function App() {
   const [menuBtn, setMenuBtn] = useState(false);
@@ -9,8 +10,8 @@ function App() {
   };
 
   return (
-    <div className="bg-indigo-100 h-screen flex justify-center items-center">
-      <div> Hello World </div>
+    <div className="bg-indigo-100 h-screen">
+      <Navigation menuBtn={menuBtn} toggler={toggler} />
     </div>
   );
 }
