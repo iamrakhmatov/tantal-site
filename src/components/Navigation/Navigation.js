@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import { Button } from "antd";
 import logo from "../../assets/tantal-logo.png";
 import logoText from "../../assets/tantal-text.png";
 
@@ -96,9 +95,6 @@ const Navigation = (props) => {
               </div>
               {/*<Breadcrumb />*/}
               {/*<Anchor />*/}
-              <Button type="primary" className="mt-2 w-max">
-                Button
-              </Button>
             </div>
           </div>
         </div>
