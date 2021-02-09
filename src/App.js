@@ -1,17 +1,19 @@
-import { useState } from "react";
+// import { useState } from "react";
 import "./App.css";
-import Navigation from "./components/Navigation/Navigation";
+import Home from "./components/Home/Home";
+import Footer from "./components/Footer/Footer";
 
 function App() {
-  const [menuBtn, setMenuBtn] = useState(false);
-
-  const toggler = () => {
-    setMenuBtn((state) => !state);
-  };
+  // const [menuBtn, setMenuBtn] = useState(false);
+  //
+  // const toggler = () => {
+  //   setMenuBtn((state) => !state);
+  // };
 
   return (
-    <div className="bg-indigo-100 h-screen">
-      <Navigation menuBtn={menuBtn} toggler={toggler} />
+    <div className="">
+      <Home />
+      <Footer />
     </div>
   );
 }
