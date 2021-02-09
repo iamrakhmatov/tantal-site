@@ -10,7 +10,7 @@ import {
 const footer = () => {
   return (
     <div className="h-72 bg-gray-800 relative">
-      <div className="flex justify-center text-white py-3 text-3xl font-bold tracking-wider text-gray-200">
+      <div className="flex justify-center text-white py-3 text-2xl sm:text-3xl font-bold tracking-wider text-gray-200">
         Свяжитесь с нами
       </div>
       <div className="flex flex-col justify-center items-center text-gray-300">
@@ -25,7 +25,7 @@ const footer = () => {
           <div className="flex items-center mb-3">
             <MailOutlined
               className="text-red-800"
-              style={{ fontSize: "25px" }}
+              style={{ fontSize: "24px" }}
             />
             <span className="text-lg ml-4">tantalvehicles@gmail.com</span>
           </div>
@@ -46,7 +46,7 @@ const footer = () => {
         </div>
       </div>
       <div className="flex justify-center text-gray-400 font-medium text-md absolute w-full bottom-1 left-0">
-        © Все права защищены TanTal.com 2021
+        © Все права защищены TanTal 2021
       </div>
     </div>
   );

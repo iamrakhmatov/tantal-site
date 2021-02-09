@@ -12,6 +12,11 @@
 
 .active {
   color: rgb(185, 28, 28);
+  font-weight: bold;
+}
+
+.blur {
+  backdrop-filter: blur(6px);
 }
 
 @tailwind base;
